@@ -1,5 +1,11 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-shadow: none;
+}
+
 .menu-title{
-    background-color: green;
+    background-color: #68D69D;
 }
 .nav{
     display: inline-block;
@@ -14,7 +20,8 @@
     position: relative;
 }
 .nav li a {
-    color: yellow;
+    font-weight: 700;
+    color: #401D83;
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
@@ -23,9 +30,9 @@
     font-size: 18px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-.nav li:hover {
-    display: block;
-}
 .nav > li:hover > a{
-    background-color: #000;
+    background-color: #CCF381;
+}
+.nav > li:hover a{
+    color: #4831D4;
 }
